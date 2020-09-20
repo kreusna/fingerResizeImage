@@ -1,7 +1,5 @@
 import cv2
 import numpy as np
-import dlib
-from itertools import groupby
 
 capture = cv2.VideoCapture(0)
 
