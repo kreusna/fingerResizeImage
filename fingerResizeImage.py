@@ -102,7 +102,7 @@ def getContours(img):
         imageNormalSize = imageNormalSize + resizeImageMore
         
 
-    smallImage = cv2.resize( smallImage, (imageNormalSize, imageNormalSize))
+    smallImage = cv2.resize( getImage, (imageNormalSize, imageNormalSize))
     newImageHeight = smallImageoldhigh + resizeImageMore
     newImagewidht = smallImageoldwidth + resizeImageMore
     imageContour[smallImageoldy: newImageHeight, smallImageoldx: newImagewidht] = smallImage
